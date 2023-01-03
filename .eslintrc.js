@@ -1,12 +1,12 @@
 const RULES = {
-  OFF: 'off',
+  off: 'OFF',
   WARN: 'WARN',
   ERROR: 'ERROR'
 }
-
 module.exports = {
   env: {
     browser: true,
+    commonjs: true,
     es2021: true
   },
   extends: 'standard',
@@ -16,6 +16,6 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
-    semi: RULES.OFF
+    semi: RULES.off
   }
 }
