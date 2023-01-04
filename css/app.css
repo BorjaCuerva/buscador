@@ -45,6 +45,7 @@ form {
 }
 #resultado p:last-of-type{
     border: none;
+    margin: 0 0 6em 0;
 }
 .alerta {
     padding: 1rem;
